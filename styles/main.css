@@ -134,6 +134,7 @@ html, body {
   padding: 20px;
 }
 
+.panel__map-link,
 .panel__source-link {
   display: block;
   text-align: center;
@@ -144,8 +145,10 @@ html, body {
   color: #88bbff;
   font-size: 13px;
   text-decoration: none;
+  margin-bottom: 8px;
 }
 
+.panel__map-link:hover,
 .panel__source-link:hover {
   background: rgba(68, 136, 255, 0.2);
 }

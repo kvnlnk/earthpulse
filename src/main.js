@@ -244,6 +244,8 @@ timeButtons.forEach((btn) => {
   });
 });
 
+
+
 // --- Data Loading ---
 const errorBanner = document.getElementById('error-banner');
 const errorMessage = errorBanner.querySelector('.error-banner__message');
