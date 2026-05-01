@@ -9,6 +9,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "globe.gl": "^2.35.0"
   },
   "devDependencies": {

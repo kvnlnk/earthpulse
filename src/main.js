@@ -3,6 +3,10 @@ import * as THREE from 'three';
 import { fetchEvents } from './services/EONETService.js';
 import { getCategoryColor, getCategoryEmoji, getCategoryLabel } from './utils/categories.js';
 import { open as openPanel } from './panel/EventPanel.js';
+import { inject } from '@vercel/analytics';
+
+// --- Vercel Web Analytics ---
+inject();
 
 // --- State ---
 let allEvents = [];
