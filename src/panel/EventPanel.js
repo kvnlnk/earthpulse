@@ -32,6 +32,8 @@ export function open(event) {
       <div class="panel__spinner">Loading media...</div>
     </div>
 
+    <a class="panel__map-link" href="https://www.google.com/maps/@${event.lat},${event.lng},10z" target="_blank" rel="noopener">Open in Google Maps \u2192</a>
+
     ${event.sourceUrl ? `<a class="panel__source-link" href="${event.sourceUrl}" target="_blank" rel="noopener">View Source \u2192</a>` : ''}
   `;
 
