@@ -11,7 +11,7 @@ An interactive 3D globe visualizing real-time natural events from NASA's EONET (
   <img src="panel.png" alt="Event Detail Panel" width="700" />
 </p>
 
-> **Disclaimer:** This project was fully vibe-coded with [Claude Code](https://claude.ai/claude-code).
+> **Disclaimer:** This project was fully vibe-coded with [Claude Code](https://code.claude.com/docs/en/overview).
 
 ![Globe.gl](https://img.shields.io/badge/Globe.gl-3D-blue)
 ![Vite](https://img.shields.io/badge/Vite-6.x-646CFF)
