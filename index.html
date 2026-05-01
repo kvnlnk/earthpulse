@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NASA EONET Globe</title>
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <div id="globe-container"></div>
+
+  <div class="time-filter">
+    <button class="time-filter__btn" data-days="7">7 Days</button>
+    <button class="time-filter__btn" data-days="30">30 Days</button>
+    <button class="time-filter__btn" data-days="90">90 Days</button>
+    <button class="time-filter__btn time-filter__btn--active" data-days="all">All</button>
+  </div>
+
+  <aside id="event-panel" class="panel panel--hidden">
+    <button class="panel__close" aria-label="Close">&times;</button>
+    <div class="panel__content"></div>
+  </aside>
+
+  <div id="legend" class="legend"></div>
+
+  <div id="error-banner" class="error-banner error-banner--hidden">
+    <span class="error-banner__message"></span>
+    <button class="error-banner__retry">Retry</button>
+  </div>
+
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loading-overlay__content">
+      <div class="loading-overlay__spinner"></div>
+      <p>Loading NASA EONET Events...</p>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
