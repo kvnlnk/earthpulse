@@ -11,6 +11,8 @@ An interactive 3D globe visualizing real-time natural events from NASA's EONET (
   <img src="panel.png" alt="Event Detail Panel" width="700" />
 </p>
 
+> **Disclaimer:** This project was fully vibe-coded with [Claude Code](https://claude.ai/claude-code).
+
 ![Globe.gl](https://img.shields.io/badge/Globe.gl-3D-blue)
 ![Vite](https://img.shields.io/badge/Vite-6.x-646CFF)
 ![Three.js](https://img.shields.io/badge/Three.js-r170-black)
@@ -76,10 +78,6 @@ Both APIs are public and require **no API key**:
 
 - **EONET v3** — `https://eonet.gsfc.nasa.gov/api/v3/events`
 - **NASA Image & Video Library** — `https://images-api.nasa.gov/search`
-
-## Disclaimer
-
-This project was fully vibe-coded with [Claude Code](https://claude.ai/claude-code).
 
 ## Deploy
 
